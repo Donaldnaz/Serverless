@@ -50,6 +50,6 @@ This project includes:
 
 ## Author
 
-Created by [Anasieze Ikenna] - Cloud Engineer
+Created by Anasieze Ikenna - Cloud Engineer
 
 
