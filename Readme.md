@@ -27,18 +27,29 @@ This project demonstrates how to build and monitor a basic RESTful API using AWS
    - Enabled **execution logging** in API Gateway stage settings
    - Used **CloudWatch Logs Insights** and **Live Tail** to observe requests, responses, and errors in real time
 
-## Sample Lambda Function (Node.js)
+## Lambda Function (Node.js)
 
 ```javascript
-exports.handler = async (event) => {
-  const response = {
-    statusCode: 200,
-    body: JSON.stringify({
-      message: "Hello from AWS Lambda!",
-      timestamp: new Date().toISOString(),
-    }),
-  };
-  return response;
+var messages = [
+    "Drilling down into data!",
+    "Full stream ahead – upstream, midstream, downstream!",
+    "Exploring new energy horizons!",
+    "Pumping up innovation!",
+    "Striking digital oil!",
+    "Refining the future!",
+    "On a seismic shift of success!",
+    "Fueling the cloud transformation!",
+    "Wells of opportunity ahead!",
+    "Gushing with insights!"
+];
+
+export const handler = async (event, context) => {
+    let message = messages[Math.floor(Math.random() * messages.length)];
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify({ message }),
+    };
+    return response;
 };
 ````
 
