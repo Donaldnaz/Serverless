@@ -1,4 +1,4 @@
-# AWS Serverless Architecture – Lambda, API Gateway, DynamoDB, Step Functions, and More
+# AWS Serverless Architecture – Lambda, API Gateway, DynamoDB & Step Functions.
 
 This repository demonstrates a modular, production-ready AWS Serverless architecture using:
 
