@@ -1,6 +1,4 @@
-### AWS API Gateway + Lambda
-
-# AWS API Gateway with Lambda Integration
+# AWS API Gateway + Lambda Integration
 
 This project demonstrates how to build and monitor a basic RESTful API using AWS API Gateway and AWS Lambda, including:
 
